@@ -180,7 +180,6 @@ int main (int argc, char *argv[]) {
 		
 		if (!result.vein_pattern.empty()) {
 			// it's empty
-			// lets masturbate
 			current = result.vein_pattern;
 		}		
 		cv::Mat canny;
@@ -205,7 +204,6 @@ int main (int argc, char *argv[]) {
 			getVeinPattern(frameIR, frameDepth, minDepth, maxDepth, &result, NORMAL);
 			if (!result.vein_pattern.empty()) {
 				// it's empty
-				// lets masturbate
 				current = result.vein_pattern;
 			}			
 			imshow("vein", current);
@@ -217,7 +215,6 @@ int main (int argc, char *argv[]) {
 			getVeinPattern(frameIR, frameDepth, minDepth, maxDepth, &result, DECREASED);
 			if (!result.vein_pattern.empty()) {
 				// it's empty
-				// lets masturbate
 				current = result.vein_pattern;
 			}
 			imshow("vein", current);
@@ -229,7 +226,6 @@ int main (int argc, char *argv[]) {
 			getVeinPattern(frameIR, frameDepth, minDepth, maxDepth, &result, INCREASED);
 			if (!result.vein_pattern.empty()) {
 				// it's empty
-				// lets masturbate
 				current = result.vein_pattern;
 			}
 			imshow("vein", current);
